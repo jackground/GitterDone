@@ -15,6 +15,7 @@
 		F8FF0F732134FE5900383548 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8FF0F712134FE5900383548 /* LaunchScreen.storyboard */; };
 		F8FF0F7E2134FE5900383548 /* GiterDoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FF0F7D2134FE5900383548 /* GiterDoneTests.swift */; };
 		F8FF0F892134FE5900383548 /* GiterDoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FF0F882134FE5900383548 /* GiterDoneUITests.swift */; };
+		F8FF0F972134FF8200383548 /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FF0F962134FF8100383548 /* TaskManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		F8FF0F842134FE5900383548 /* GiterDoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GiterDoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8FF0F882134FE5900383548 /* GiterDoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiterDoneUITests.swift; sourceTree = "<group>"; };
 		F8FF0F8A2134FE5900383548 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8FF0F962134FF8100383548 /* TaskManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				F8FF0F662134FE5700383548 /* AppDelegate.swift */,
 				F8FF0F682134FE5700383548 /* FirstViewController.swift */,
+				F8FF0F962134FF8100383548 /* TaskManager.swift */,
 				F8FF0F6A2134FE5700383548 /* SecondViewController.swift */,
 				F8FF0F6C2134FE5700383548 /* Main.storyboard */,
 				F8FF0F6F2134FE5900383548 /* Assets.xcassets */,
@@ -261,6 +264,7 @@
 			files = (
 				F8FF0F6B2134FE5700383548 /* SecondViewController.swift in Sources */,
 				F8FF0F672134FE5700383548 /* AppDelegate.swift in Sources */,
+				F8FF0F972134FF8200383548 /* TaskManager.swift in Sources */,
 				F8FF0F692134FE5700383548 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
